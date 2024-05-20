@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { getTrangThai } from '../../redux/selector';
 import { fetchTrangThai } from '../../redux/slices/TrangThaiCaLamSlice/trangThaiCaLamSlice';
-import { createCaLam, fetchCaLam } from '../../redux/slices/DangKyCaLamSlice/DangKyCaLamSlice';
+import { createCaLam, fetchCaLam } from '../../redux/slices/DangKyCaLamSlice/dangKyCaLamSlice';
 
 const ModalAddCaLam=({onClose})=> {
     const [form] = Form.useForm();

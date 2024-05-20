@@ -13,7 +13,7 @@ import {
   checkOutCaLam,
   fetchCaLam,
   setSelectedRowCaLam,
-} from "../../redux/slices/DangKyCaLamSlice/DangKyCaLamSlice";
+} from "../../redux/slices/DangKyCaLamSlice/dangKyCaLamSlice";
 import { fetchTrangThai } from "../../redux/slices/TrangThaiCaLamSlice/trangThaiCaLamSlice";
 
 const DangKyCaLamTable = () => {

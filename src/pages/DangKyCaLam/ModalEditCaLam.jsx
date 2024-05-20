@@ -15,7 +15,7 @@ import { fetchTrangThai } from "../../redux/slices/TrangThaiCaLamSlice/trangThai
 import {
   fetchCaLam,
   updateCaLam,
-} from "../../redux/slices/DangKyCaLamSlice/DangKyCaLamSlice";
+} from "../../redux/slices/DangKyCaLamSlice/dangKyCaLamSlice";
 import moment from "moment";
 
 const ModalEditCaLam = ({ onClose }) => {

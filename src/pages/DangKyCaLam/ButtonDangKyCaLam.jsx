@@ -6,7 +6,7 @@ import {
   checkOutCaLam,
   deleteCaLam,
   fetchCaLam,
-} from "../../redux/slices/DangKyCaLamSlice/DangKyCaLamSlice";
+} from "../../redux/slices/DangKyCaLamSlice/dangKyCaLamSlice";
 import { Button, Modal } from "antd";
 import {
   DeleteOutlined,
