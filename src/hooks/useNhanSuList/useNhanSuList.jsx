@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getListNhanSuSelector } from "../../redux/selector";
-import { filterNhanSu } from "../../redux/slices/nhanSuSlice/nhanSuSlice";
+import { filterNhanSu } from "../../redux/slices/NhanSuSlice/nhanSuSlice";
 
 const useNhanSuList = () => {
   const dispatch = useDispatch();
