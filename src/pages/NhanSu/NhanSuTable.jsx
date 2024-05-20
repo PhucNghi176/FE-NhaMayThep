@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import {
   filterNhanSu,
   selectedNhanSu,
-} from "../../redux/slices/nhanSuSlice/nhanSuSlice";
+} from "../../redux/slices/NhanSuSlice/nhanSuSlice";
 import dayjs from "dayjs";
 import UpdateNhanSu from "./UpdateNhanSu";
 
