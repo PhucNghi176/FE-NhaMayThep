@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { lichSuNghiPhepSelector } from "../../redux/selector";
 import { useEffect } from "react";
-import { getListNghiPhep } from "../../redux/slices/LichSuNghiPhepSlice/LichSuNghiPhepSlice";
+import { getListNghiPhep } from "../../redux/slices/lichSuNghiPhepSlice/lichSuNghiPhepSlice";
 
 const useLichSuNghiPhepList = () => {
     const dispatch = useDispatch();
