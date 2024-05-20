@@ -20,7 +20,7 @@ import trinhDoChinhTriSlice from "./slices/trinhDoChinhTriSlice/trinhDoChinhTriS
 import capDangVienSlice from "./slices/capDangVienSlice/capDangVienSlice";
 import capBacLuongSlice from "./slices/CapBacLuongSlice/CapBacLuongSlice";
 import kyLuatSlice from "./slices/KyLuatSlice/kyLuatSlice";
-import chinhSachNhanSuSlice from "./slices/chinhSachNhanSuSlice/chinhSachNhanSuSlice";
+import chinhSachNhanSuSlice from "./slices/ChinhSachNhanSuSlice/chinhSachNhanSuSlice";
 import { KhenThuongSlice } from "./slices/khenThuongSlice/khenThuongSlice";
 import hangLoatNhanSuSlice from "./slices/nhanSuSlice/getHangLoatNhanSuSlice";
 import chiTietBaoHiemSlice from "./slices/chiTietBaoHiemSlice/chiTietBaoHiemSlice";
