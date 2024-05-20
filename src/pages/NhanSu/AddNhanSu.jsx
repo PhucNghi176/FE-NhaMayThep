@@ -15,11 +15,11 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   createNhanSu,
   filterNhanSu,
-} from "../../redux/slices/nhanSuSlice/nhanSuSlice";
+} from "../../redux/slices/NhanSuSlice/nhanSuSlice";
 import locale from "antd/es/date-picker/locale/vi_VN";
 import "dayjs/locale/vi";
 import { getHangLoatNhanSuSelector } from "../../redux/selector";
-import { getListHangLoatNhanSu } from "../../redux/slices/nhanSuSlice/getHangLoatNhanSuSlice";
+import { getListHangLoatNhanSu } from "../../redux/slices/NhanSuSlice/getHangLoatNhanSuSlice";
 
 const AddNhanSu = ({ onClose }) => {
   const [isAddOpen, setIsAddOpen] = useState(false);
