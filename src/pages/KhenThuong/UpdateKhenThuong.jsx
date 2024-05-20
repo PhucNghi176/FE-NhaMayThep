@@ -16,7 +16,7 @@ import {
   updateKhenThuong,
 } from "../../redux/slices/khenThuongSlice/khenThuongSlice";
 import { getChinhSachNhanSu } from "../../redux/selector";
-import { fetchChinhSachNhanSu } from "../../redux/slices/chinhSachNhanSuSlice/chinhSachNhanSuSlice";
+import { fetchChinhSachNhanSu } from "../../redux/slices/ChinhSachNhanSuSlice/chinhSachNhanSuSlice";
 
 const UpdateKhenThuong = (props) => {
   const { record } = props;

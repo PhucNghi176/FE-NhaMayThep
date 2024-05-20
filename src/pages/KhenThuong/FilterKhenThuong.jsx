@@ -12,7 +12,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { filterKhenThuong } from "../../redux/slices/khenThuongSlice/khenThuongSlice";
 import { AlignCenterOutlined, SearchOutlined } from "@ant-design/icons";
 import { getChinhSachNhanSu } from "../../redux/selector";
-import { fetchChinhSachNhanSu } from "../../redux/slices/chinhSachNhanSuSlice/chinhSachNhanSuSlice";
+import { fetchChinhSachNhanSu } from "../../redux/slices/ChinhSachNhanSuSlice/chinhSachNhanSuSlice";
 import { useEffect } from "react";
 
 const { Panel } = Collapse;

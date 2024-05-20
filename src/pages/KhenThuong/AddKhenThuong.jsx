@@ -16,7 +16,7 @@ import {
   filterKhenThuong,
 } from "../../redux/slices/khenThuongSlice/khenThuongSlice";
 import { getChinhSachNhanSu } from "../../redux/selector";
-import { fetchChinhSachNhanSu } from "../../redux/slices/chinhSachNhanSuSlice/chinhSachNhanSuSlice";
+import { fetchChinhSachNhanSu } from "../../redux/slices/ChinhSachNhanSuSlice/chinhSachNhanSuSlice";
 
 const AddKhenThuong = ({ onClose }) => {
   const [isAddOpen, setIsAddOpen] = useState(false);

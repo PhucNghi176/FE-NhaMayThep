@@ -6,7 +6,7 @@ import {
   selectedKhenThuong,
 } from "../../redux/slices/khenThuongSlice/khenThuongSlice";
 import { getChinhSachNhanSu } from "../../redux/selector";
-import { fetchChinhSachNhanSu } from "../../redux/slices/chinhSachNhanSuSlice/chinhSachNhanSuSlice";
+import { fetchChinhSachNhanSu } from "../../redux/slices/ChinhSachNhanSuSlice/chinhSachNhanSuSlice";
 import UpdateKhenThuong from "./UpdateKhenThuong";
 import dayjs from "dayjs";
 
