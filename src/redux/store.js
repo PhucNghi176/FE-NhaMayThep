@@ -4,7 +4,7 @@ import tinhTrangLamViecSlice from "./slices/tinhTrangLamViecSlice/tinhTrangLamVi
 import chucVuSlice from "./slices/chucVuSlice/chucVuSlice";
 import hangLoatSlice from "./slices/nhanVienSlice/getHangLoatSlice";
 import baoHiemSlice from "./slices/baoHiemSlice/baoHiemSlice";
-import nhanSuSlice from "./slices/nhanSuSlice/nhanSuSlice";
+import nhanSuSlice from "./slices/NhanSuSlice/nhanSuSlice";
 import canCuocCongDanSlice from "./slices/canCuocCongDanSlice/canCuocCongDanSlice";
 import dangVienSlice from "./slices/dangVienSlice/dangVienSlice";
 import hopDongSlice from "./slices/hopDongSlice/hopDongSlice";
