@@ -9,7 +9,7 @@ export const axiosClientVer2 = axios.create({
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
-    Authorization: `Bearer ${token.toString()}`,
+    Authorization: `Bearer ${authToken.toString()}`,
   },
 });
 
