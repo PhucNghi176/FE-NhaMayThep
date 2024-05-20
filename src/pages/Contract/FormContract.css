@@ -1,0 +1,63 @@
+.formHopDong {
+  font-family: "sans-serif";
+}
+.sectionTitle {
+  font-size: 16px;
+}
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.cardTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1677ff;
+}
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.infoSection {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoField {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.subSection {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.infoField-label {
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+.infoField-value{
+  font-size: 16px;
+}
+
+.Card h2,
+h3 {
+  color: #1677ff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+:where(.css-dev-only-do-not-override-fpg3f5).ant-form-item
+  .ant-form-item-explain-error {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}

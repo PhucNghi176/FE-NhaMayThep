@@ -1,0 +1,64 @@
+    /* status button */
+    .ant-select .ant-select-selector [title~="Pending"] {
+      color: orange !important;
+    }
+
+    .ant-select .ant-select-selector [title~="Reject"] {
+      color: red !important;
+    }
+
+    .ant-select .ant-select-selector [title~="Accept"] {
+      color: green !important;
+    }
+
+    /* content style */
+    .ant-layout-content.css-dev-only-do-not-override-p7e5j5>div {
+      background-color: #fff !important;
+    }
+
+    .ant-layout-content.css-dev-only-do-not-override-p7e5j5 .topContentContainer {
+      background-color: #f5f5f5 !important;
+    }
+
+    /* table style */
+    .css-dev-only-do-not-override-p7e5j5[class^="ant-table"] {
+      text-wrap: nowrap;
+    }
+
+    .css-dev-only-do-not-override-p7e5j5.ant-table-wrapper .ant-table.ant-table-small .ant-table-cell {
+      padding: 4px 8px;
+    }
+
+    .css-dev-only-do-not-override-p7e5j5.ant-table-wrapper .ant-table {
+      color: dimgrey
+    }
+
+    .css-dev-only-do-not-override-p7e5j5.ant-table-wrapper .ant-table-thead>tr>th {
+      text-wrap: nowrap;
+      padding: 20px 10px;
+    }
+    
+    /*   
+    .ant-table-tbody > tr:nth-child(even) {
+      background-color: #f0f0f0;
+    }
+    
+    .ant-table-tbody > tr:nth-child(odd) {
+      background-color: #fff;
+    }
+     */
+
+    .ant-table-tbody>tr:nth-child(odd):hover>td {
+      background-color: #e6f4ff !important;
+    }
+
+    .ant-table-tbody>tr:nth-child(even):hover>td {
+      background-color: #e6f4ff !important;
+    }
+
+
+    /* Buttons Clean Filter & Search */
+    .ant-btn.css-dev-only-do-not-override-p7e5j5.ant-btn-default,
+    .ant-btn.css-dev-only-do-not-override-p7e5j5.searchBtn {
+      padding: 4px 5px;
+    }

@@ -1,0 +1,35 @@
+.login-container {
+  color: #41474f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.ant-picker-input input::placeholder {
+  color: #ffffff;
+}
+
+.loginForm {
+  width: 450px;
+  height: 540px;
+}
+
+.loginFormContent {
+  margin-top: 40px;
+}
+
+.login-header {
+  font-weight: bold;
+  color: #41474f;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginSignup_content {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #41474f;
+  display: flex;
+}
