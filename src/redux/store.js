@@ -11,7 +11,7 @@ import hopDongSlice from "./slices/hopDongSlice/hopDongSlice";
 import loaiHopDongSlice from "./slices/loaiHopDongSlice/loaiHopDongSlice";
 import chucDanhSlice from "./slices/chucDanhSlice/chucDanhSlice";
 import phuCapSlice from "./slices/phuCapSlice/phuCapSlice";
-import getHangLoatSlice from "./slices/hopDongSlice/gethangLoatSlice";
+import getHangLoatSlice from "./slices/hopDongSlice/getHangLoatSlice";
 import { TTDTSlice } from "./slices/thongTinDaoTaoSlice/thongTinDaoTaoSlice";
 import trinhDoHocVanSlice from "./slices/TrinhDoHocVanSlice/trinhDoHocVanSlice";
 import donViCongTacSlice from "./slices/donViCongTacSlice/donViCongTacSlice";
