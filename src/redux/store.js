@@ -22,7 +22,7 @@ import capBacLuongSlice from "./slices/CapBacLuongSlice/CapBacLuongSlice";
 import kyLuatSlice from "./slices/KyLuatSlice/kyLuatSlice";
 import chinhSachNhanSuSlice from "./slices/ChinhSachNhanSuSlice/chinhSachNhanSuSlice";
 import { KhenThuongSlice } from "./slices/khenThuongSlice/khenThuongSlice";
-import hangLoatNhanSuSlice from "./slices/nhanSuSlice/getHangLoatNhanSuSlice";
+import hangLoatNhanSuSlice from "./slices/NhanSuSlice/getHangLoatNhanSuSlice";
 import chiTietBaoHiemSlice from "./slices/chiTietBaoHiemSlice/chiTietBaoHiemSlice";
 import thongTinCongDoanSlice from "./slices/thongTinCongDoanSlice/thongTinCongDoanSlice";
 import lichSuNghiPhepSlice from "./slices/LichSuNghiPhepSlice/LichSuNghiPhepSlice";
