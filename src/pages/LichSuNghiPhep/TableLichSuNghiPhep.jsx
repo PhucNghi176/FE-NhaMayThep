@@ -4,7 +4,7 @@ import { Table, Pagination, Spin } from "antd";
 import dayjs from "dayjs";
 import "dayjs/locale/vi"; // Import Vietnamese locale
 dayjs.locale("vi"); // Set the locale
-import { getListNghiPhep, selectedNghiPhep } from "../../redux/slices/LichSuNghiPhepSlice/LichSuNghiPhepSlice";
+import { getListNghiPhep, selectedNghiPhep } from "../../redux/slices/lichSuNghiPhepSlice/lichSuNghiPhepSlice";
 const TableLichSuNghiPhep = ({ dataSource }) => {
     const dispatch = useDispatch();
     const [currentPage, setCurrentPage] = useState(1);
