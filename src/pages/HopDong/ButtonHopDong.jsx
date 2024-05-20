@@ -17,7 +17,7 @@ import {
   deleteHopDong,
   fetchHopDong
 } from "../../redux/slices/hopDongSlice/hopDongSlice";
-import "../../styles/Button.css";
+import "../../styles/button.css";
 import ModalAddHopDong from "./ModalAddHopDong";
 import ModalEditHopDong from "./ModalEdithopDong";
 
