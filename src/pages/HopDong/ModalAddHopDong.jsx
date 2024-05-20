@@ -16,7 +16,7 @@ import {
 
 } from "antd";
 import { getCapBacLuong, getHangLoat } from "../../redux/selector";
-import { fetchHangLoatHopDong } from "../../redux/slices/hopDongSlice/gethangLoatSlice";
+import { fetchHangLoatHopDong } from "../../redux/slices/hopDongSlice/getHangLoatSlice";
 import { fetchCapBacLuong } from "../../redux/slices/CapBacLuongSlice/CapBacLuongSlice";
 
 const ModalAddHopDong = ({onClose}) => {

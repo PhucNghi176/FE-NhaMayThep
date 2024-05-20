@@ -12,7 +12,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getSelectedHopDong } from "../../redux/selector";
-import { fetchHangLoatHopDong } from "../../redux/slices/hopDongSlice/gethangLoatSlice";
+import { fetchHangLoatHopDong } from "../../redux/slices/hopDongSlice/getHangLoatSlice";
 import {
   deleteHopDong,
   fetchHopDong
