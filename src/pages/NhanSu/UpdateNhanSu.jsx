@@ -14,12 +14,12 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   filterNhanSu,
   updateNhanSu,
-} from "../../redux/slices/nhanSuSlice/nhanSuSlice";
+} from "../../redux/slices/NhanSuSlice/nhanSuSlice";
 import { EditOutlined, PlusOutlined } from "@ant-design/icons";
 import { getHangLoatNhanSuSelector } from "../../redux/selector";
 import dayjs from "dayjs";
 import "dayjs/locale/vi";
-import { getListHangLoatNhanSu } from "../../redux/slices/nhanSuSlice/getHangLoatNhanSuSlice";
+import { getListHangLoatNhanSu } from "../../redux/slices/NhanSuSlice/getHangLoatNhanSuSlice";
 
 const UpdateNhanSu = (props) => {
   const { record } = props;
