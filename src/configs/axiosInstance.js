@@ -18,7 +18,7 @@ export const axiosClientVer2 = axios.create({
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
-    Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjZjU5ZmVkYjRkZDc0ZmU0ODNjY2IxYzE1YzIzYjcyZiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzQ3NzYwODM4fQ.p5NyELpLkVsMvHdXWYkC1YFkB6-ildv9XyPWDhp6lz4`
+    Authorization: `Bearer ${authToken}`
   },
 });
 
