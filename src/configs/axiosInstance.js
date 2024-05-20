@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjZjU5ZmVkYjRkZDc0ZmU0ODNjY2IxYzE1YzIzYjcyZiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzQ3NzYwODM4fQ.p5NyELpLkVsMvHdXWYkC1YFkB6-ildv9XyPWDhp6lz4';
+let authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjZjU5ZmVkYjRkZDc0ZmU0ODNjY2IxYzE1YzIzYjcyZiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzQ3NzYwODM4fQ.p5NyELpLkVsMvHdXWYkC1YFkB6-ildv9XyPWDhp6lz4'.toString();
 let isRefreshing = false;
 let refreshPromise = null;
 
@@ -9,25 +9,25 @@ export const axiosClientVer2 = axios.create({
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
-    Authorization: `Bearer ${authToken.toString()}`.toString(),
+    Authorization: `Bearer ${token.toString()}`,
   },
 });
 
-async function refreshToken() {
-  try {
-    const response = await axiosClientVer2.post("auth/refresh-token", {
-      authToken,
-    });
-    authToken = response.data.token;
-    sessionStorage.setItem("token", authToken);
-    isRefreshing = false;
-    refreshPromise = null;
-    return authToken;
-  } catch (error) {
-    console.error("Refresh token failed", error);
-    throw error;
-  }
-}
+// async function refreshToken() {
+//   try {
+//     const response = await axiosClientVer2.post("auth/refresh-token", {
+//       authToken,
+//     });
+//     authToken = response.data.token;
+//     sessionStorage.setItem("token", authToken);
+//     isRefreshing = false;
+//     refreshPromise = null;
+//     return authToken;
+//   } catch (error) {
+//     console.error("Refresh token failed", error);
+//     throw error;
+//   }
+// }
 
 axiosClientVer2.interceptors.request.use(
   (config) => {
