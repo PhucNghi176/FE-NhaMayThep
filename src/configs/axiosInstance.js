@@ -1,6 +1,15 @@
 import axios from "axios";
 
+//let authToken = sessionStorage.getItem("value");
 let authToken = sessionStorage.getItem("value");
+const cookies = document.cookie.split("; ");
+for (let i = 0; i < cookies.length; i++) {
+  const cookie = cookies[i].split("=");
+  if (cookie[0] === "_vercel_jwt") {
+    authToken = cookie[1];
+    break;
+  }
+}
 let isRefreshing = false;
 let refreshPromise = null;
 
