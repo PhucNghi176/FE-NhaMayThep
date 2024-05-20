@@ -9,10 +9,10 @@ import {
   Select,
 } from "antd";
 import { useDispatch, useSelector } from "react-redux";
-import { filterNhanSu } from "../../redux/slices/nhanSuSlice/nhanSuSlice";
+import { filterNhanSu } from "../../redux/slices/NhanSuSlice/nhanSuSlice";
 import { AlignCenterOutlined, SearchOutlined } from "@ant-design/icons";
 import { useEffect } from "react";
-import { getListHangLoatNhanSu } from "../../redux/slices/nhanSuSlice/getHangLoatNhanSuSlice";
+import { getListHangLoatNhanSu } from "../../redux/slices/NhanSuSlice/getHangLoatNhanSuSlice";
 import { getHangLoatNhanSuSelector } from "../../redux/selector";
 
 const { Panel } = Collapse;

@@ -2,7 +2,7 @@ import { DeleteOutlined, DownloadOutlined } from "@ant-design/icons";
 import { Button, Form, Modal, notification } from "antd";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import AddchiTietBaoHiem from "./AddchiTietBaoHiem";
+import AddchiTietBaoHiem from "../ChiTietBaoHiem/AddChiTietBaoHiem";
 import {
   deleteChiTietBaoHiem,
   filterChiTietBaoHiem,
