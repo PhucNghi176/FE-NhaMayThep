@@ -4,7 +4,7 @@ import locale from "antd/es/date-picker/locale/vi_VN";
 import "dayjs/locale/vi";
 import { useDispatch, useSelector } from "react-redux";
 import { getListLoaiNghiPhep } from "../../redux/slices/loaiNghiPhepSlice/loaiNghiPhepSlice";
-import { createLichSuNghiPhep, getListNghiPhep } from "../../redux/slices/LichSuNghiPhepSlice/LichSuNghiPhepSlice";
+import { createLichSuNghiPhep, getListNghiPhep } from "../../redux/slices/lichSuNghiPhepSlice/lichSuNghiPhepSlice";
 import { loaiNghiPhepSelector } from "../../redux/selector";
 const { Title } = Typography;
 

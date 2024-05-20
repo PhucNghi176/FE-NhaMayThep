@@ -11,7 +11,7 @@ import {
 import "../../styles/button.css";
 import AddLichSuNghiPhep from './AddLichSuNghiPhep';
 import { getNghiPhepRow } from '../../redux/selector';
-import { deleteLichSuNghiPhep, getListNghiPhep } from '../../redux/slices/LichSuNghiPhepSlice/LichSuNghiPhepSlice';
+import { deleteLichSuNghiPhep, getListNghiPhep } from '../../redux/slices/lichSuNghiPhepSlice/lichSuNghiPhepSlice';
 import EditLichSuNghiPhep from './EditLichSuNghiPhep';
 
 const ButtonLichSuNghiPhep = () => {

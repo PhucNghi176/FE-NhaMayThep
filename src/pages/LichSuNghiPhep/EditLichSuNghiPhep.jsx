@@ -10,7 +10,7 @@ import { getListDonViCongTac } from "../../redux/slices/donViCongTacSlice/donViC
 import { getListChucVuDang } from "../../redux/slices/chucVuDangSlice/chucVuDangSlice";
 import { getListTrinhDoChinhTri } from "../../redux/slices/trinhDoChinhTriSlice/trinhDoChinhTriSlice";
 import { getListCapDangVien } from "../../redux/slices/capDangVienSlice/capDangVienSlice";
-import { getListNghiPhep, updateLichSuNghiPhep } from "../../redux/slices/LichSuNghiPhepSlice/LichSuNghiPhepSlice";
+import { getListNghiPhep, updateLichSuNghiPhep } from "../../redux/slices/lichSuNghiPhepSlice/lichSuNghiPhepSlice";
 import { getListLoaiNghiPhep } from "../../redux/slices/loaiNghiPhepSlice/loaiNghiPhepSlice";
 
 const EditLichSuNghiPhep = ({ onClose }) => {

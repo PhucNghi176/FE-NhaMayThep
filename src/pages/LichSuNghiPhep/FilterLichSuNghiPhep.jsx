@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import "../../styles/button.css";
 import { getListLoaiNghiPhep } from '../../redux/slices/loaiNghiPhepSlice/loaiNghiPhepSlice';
-import { getListNghiPhep } from '../../redux/slices/LichSuNghiPhepSlice/LichSuNghiPhepSlice';
+import { getListNghiPhep } from '../../redux/slices/lichSuNghiPhepSlice/lichSuNghiPhepSlice';
 import { formats } from 'dayjs/locale/vi';
 
 const { Panel } = Collapse;
