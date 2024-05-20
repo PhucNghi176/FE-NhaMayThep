@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import {
   deleteNhanSu,
   filterNhanSu,
-} from "../../redux/slices/nhanSuSlice/nhanSuSlice";
+} from "../../redux/slices/NhanSuSlice/nhanSuSlice";
 
 const buttonStyle = {
   height: "40px",
