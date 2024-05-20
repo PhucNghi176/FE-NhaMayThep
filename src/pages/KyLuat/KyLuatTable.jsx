@@ -5,7 +5,7 @@ import {
   filterKyLuat,
   setSelectedRows,
 } from "../../redux/slices/KyLuatSlice/kyLuatSlice";
-import {fetchChinhSachNhanSu} from "../../redux/slices/chinhSachNhanSuSlice/chinhSachNhanSuSlice";
+import {fetchChinhSachNhanSu} from "../../redux/slices/ChinhSachNhanSuSlice/chinhSachNhanSuSlice";
 import { getChinhSachNhanSu, getKyLuat } from "../../redux/selector";
 import { Pagination, Spin, Table } from "antd";
 import { LoadingOutlined } from "@ant-design/icons";

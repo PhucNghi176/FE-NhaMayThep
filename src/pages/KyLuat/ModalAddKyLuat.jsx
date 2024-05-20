@@ -2,7 +2,7 @@ import { Button, Col, Form, Input, Row, Select, Typography } from "antd";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getChinhSachNhanSu } from "../../redux/selector";
-import { fetchChinhSachNhanSu } from "../../redux/slices/chinhSachNhanSuSlice/chinhSachNhanSuSlice";
+import { fetchChinhSachNhanSu } from "../../redux/slices/ChinhSachNhanSuSlice/chinhSachNhanSuSlice";
 import { createKyLuat, fetchKyLuat } from "../../redux/slices/KyLuatSlice/kyLuatSlice";
 
 const ModalAddKyLuat = ({onClose}) => {
