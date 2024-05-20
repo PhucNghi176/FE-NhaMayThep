@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let authToken = sessionStorage.getItem("value");
+//let authToken = sessionStorage.getItem("value");
 let isRefreshing = false;
 let refreshPromise = null;
 
